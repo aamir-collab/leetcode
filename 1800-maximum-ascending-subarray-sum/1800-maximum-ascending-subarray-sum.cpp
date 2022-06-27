@@ -9,6 +9,7 @@ public:
          }
          else{
              res = max(res,sum);
+             sum = 0;
              sum=nums[i];
              
          }
