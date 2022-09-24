@@ -24,10 +24,10 @@ public:
                 ans.push_back(path);
             }
         }
-        else{
+        
                 traverse(root->left, targetSum, sum);
                 traverse(root->right, targetSum, sum);
-            }
+            
         path.pop_back();
     }
     vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
